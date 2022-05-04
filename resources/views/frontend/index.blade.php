@@ -7,7 +7,7 @@
         <meta name="csrf-token" content="{{csrf_token()}}">
         <meta name="baseUrl" content="{{env('APP_URL')}}" />
         <title>{{ config('app.name', 'Laravel') }}</title>
-        <link rel="shortcut icon" class="site_favicon_preview" href="{{ getSingleMedia(settingSession('get'),'site_favicon',null) }}" />
+        
         <link rel="stylesheet" href="{{ asset('vendor/@fortawesome/fontawesome-free/css/all.min.css')}}">
         <link href="{{ asset('css/frontend.min.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/frontend/slick.css')}}">
