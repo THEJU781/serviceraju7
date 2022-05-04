@@ -6,7 +6,7 @@
              <div class="card p-3">
                 <div class="card-body">
                    <div class="auth-logo">
-                      <img src="{{ getSingleMedia(settingSession('get'),'site_logo',null) }}" class="img-fluid rounded-normal" alt="logo">
+                      
                    </div>
                    <h3 class="mb-3 font-weight-bold text-center">{{__('auth.sign_in')}}</h3>
                    <p class="text-center text-secondary mb-4">{{__('auth.login_continue')}}</p>
