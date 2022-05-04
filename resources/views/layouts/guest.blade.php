@@ -7,7 +7,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <link rel="shortcut icon" class="site_favicon_preview" href="{{ getSingleMedia(settingSession('get'),'site_favicon',null) }}" />
+        
         
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
